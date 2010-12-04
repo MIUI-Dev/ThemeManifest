@@ -12,5 +12,18 @@
                               "http://www.miui-dev.com/themes/swg/2.jpg",
                               "http://www.miui-dev.com/themes/swg/3.jpg",
                               "http://www.miui-dev.com/themes/swg/4.jpg"]
+  },
+
+  {
+    "theme_name": "CRYSTA",
+    "theme_url": "http://magicmonkeystudios.com/android/n_i_x/themes/CRYSTA.zip",
+    "theme_author": "咩咩ynes",
+    "theme_preview_url": "http://themes.miui-themes.com/previews/CRYSTA/CRYSTA_thumbnail.jpg",
+    "theme_size": "3.7mb",
+    "theme_version": "1.0beta",
+    "theme_screenshot_urls": ["http://themes.miui-themes.com/previews/CRYSTA/0.jpg",
+                              "http://themes.miui-themes.com/previews/CRYSTA/1.jpg",
+                              "http://themes.miui-themes.com/previews/CRYSTA/2.jpg"]
   }
+
 ]}
