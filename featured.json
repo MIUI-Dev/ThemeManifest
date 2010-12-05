@@ -2,16 +2,19 @@
 
   {
     "theme_name": "SWG",
-    "theme_url": "http://www.miui-dev.com/themes/swg/swg-v1.2.zip",
-    "theme_author": "themorra",
-    "theme_preview_url": "http://www.miui-dev.com/themes/swg/swg_thumbnail.jpg",
-    "theme_size": "3.9mb",
-    "theme_version": "1.2",
-    "theme_screenshot_urls": ["http://www.miui-dev.com/themes/swg/0.jpg",
-                              "http://www.miui-dev.com/themes/swg/1.jpg",
-                              "http://www.miui-dev.com/themes/swg/2.jpg",
-                              "http://www.miui-dev.com/themes/swg/3.jpg",
-                              "http://www.miui-dev.com/themes/swg/4.jpg"]
+    "theme_url": "http://magicmonkeystudios.com/android/n_i_x/themes/swg-v1.2.zip",
+    "theme_author": "Lucas Schvindt",
+    "theme_preview_url": "http://themes.miui-themes.com/previews/SWG/SWG_thumbnail.jpg",
+    "theme_size": "4.0M",
+    "theme_version": "1.0",
+    "theme_screenshot_urls": [
+                              "http://themes.miui-themes.com/previews/SWG/0.jpg",
+                              "http://themes.miui-themes.com/previews/SWG/1.jpg",
+                              "http://themes.miui-themes.com/previews/SWG/2.jpg",
+                              "http://themes.miui-themes.com/previews/SWG/3.jpg",
+                              "http://themes.miui-themes.com/previews/SWG/4.jpg",
+                              "http://themes.miui-themes.com/previews/SWG/5.jpg",
+                             ]
   },
 
   {
