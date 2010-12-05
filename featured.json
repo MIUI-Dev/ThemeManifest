@@ -22,11 +22,25 @@
     "theme_url": "http://magicmonkeystudios.com/android/n_i_x/themes/CRYSTA.zip",
     "theme_author": "咩咩ynes",
     "theme_preview_url": "http://themes.miui-themes.com/previews/CRYSTA/CRYSTA_thumbnail.jpg",
-    "theme_size": "3.7mb",
+    "theme_size": "3.7M",
     "theme_version": "1.0beta",
     "theme_screenshot_urls": ["http://themes.miui-themes.com/previews/CRYSTA/0.jpg",
                               "http://themes.miui-themes.com/previews/CRYSTA/1.jpg",
                               "http://themes.miui-themes.com/previews/CRYSTA/2.jpg"]
+  },
+  
+  {
+    "theme_name": "Watermelon",
+    "theme_url": "http://magicmonkeystudios.com/android/n_i_x/themes/xigua_V1.1.zip",
+    "theme_author": "oTUo",
+    "theme_preview_url": "http://themes.miui-themes.com/previews/Watermelon/Watermelon_thumbnail.jpg",
+    "theme_size": "2.1M",
+    "theme_version": "1.1",
+    "theme_screenshot_urls": [
+                              "http://themes.miui-themes.com/previews/Watermelon/0.jpg",
+                              "http://themes.miui-themes.com/previews/Watermelon/1.jpg",
+                              "http://themes.miui-themes.com/previews/Watermelon/2.jpg",
+                             ]
   }
 
 ]}

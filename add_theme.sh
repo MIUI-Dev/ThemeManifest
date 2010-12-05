@@ -2,7 +2,7 @@
 tmpDir=tmp
 xmlFile=$tmpDir/description.xml
 themeFileName=$(basename $1)
-zipFileSize=$(du -h previews/swg-v1.2.zip | cut -f 1)
+zipFileSize=$(du -h $1 | cut -f 1)
 
 # Delete existing temp files
 rm -rf $tmpDir
@@ -59,7 +59,7 @@ safeThemeName=$(echo $title|sed 's/ /_/g')
 unzip -q -j $1 preview/* -d $tmpDir/$safeThemeName/
 
 # Remove all non image files
-find tmp/SWG -type f \! \( -name "*.jpg" -or -name "*.png" \) -delete
+find $tmpDir/$safeThemeName -type f \! \( -name "*.jpg" -or -name "*.png" \) -delete
 
 # Make the images globally readable/writable
 chmod -R a+r $tmpDir
@@ -93,5 +93,7 @@ find previews/$safeThemeName -type f \! -name "*thumbnail.*" -exec echo "       
 
 echo "                             ]
   },
+
+Don't forget to \`git push\` when you are done adding the theme!
 
 "
