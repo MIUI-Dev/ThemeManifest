@@ -53,8 +53,10 @@ function parseXML() {
 # Parse the XML file
 parseXML
 
+safeThemeName=$(echo $title|sed 's/ /_/g')
+
 # Unzip the preview images to a temp folder
-unzip -q -j $1 preview/* -d $tmpDir/$title/
+unzip -q -j $1 preview/* -d $tmpDir/$safeThemeName/
 
 # Remove all non image files
 find tmp/SWG -type f \! \( -name "*.jpg" -or -name "*.png" \) -delete
@@ -63,14 +65,14 @@ find tmp/SWG -type f \! \( -name "*.jpg" -or -name "*.png" \) -delete
 chmod -R a+r $tmpDir
 
 # Create the theme preview folder
-mkdir -p previews/$title
+mkdir -p previews/$safeThemeName
 
 # Convert the images
-convert $tmpDir/$title/0.*[x167] previews/$title/$title\_thumbnail.jpg
-convert $tmpDir/$title/*[x333] previews/$title/%d.jpg
+convert $tmpDir/$safeThemeName/0.*[x167] previews/$safeThemeName/$safeThemeName\_thumbnail.jpg
+convert $tmpDir/$safeThemeName/*[x333] previews/$safeThemeName/%d.jpg
 
 # Check the files into git
-git add previews/$title
+git add previews/$safeThemeName
 git commit
 
 # Print the manifest lines
@@ -81,15 +83,15 @@ Add the following code to the proper manifest file:
     \"theme_name\": \"$title\",
     \"theme_url\": \"http://magicmonkeystudios.com/android/n_i_x/themes/$themeFileName\",
     \"theme_author\": \"$author\","
-echo -n "    \"theme_preview_url\": \"http://themes.miui-themes.com/previews/$title/$title"
+echo -n "    \"theme_preview_url\": \"http://themes.miui-themes.com/previews/$safeThemeName/$safeThemeName"
 echo "_thumbnail.jpg\",
     \"theme_size\": \"$zipFileSize\",
     \"theme_version\": \"$version\",
     \"theme_screenshot_urls\": ["
 
-find previews/SWG -type f \! -name "*thumbnail.*" -exec echo "                              \"http://themes.miui-themes.com/{}\"," \;
+find previews/$safeThemeName -type f \! -name "*thumbnail.*" -exec echo "                              \"http://themes.miui-themes.com/{}\"," \;
 
 echo "                             ]
-  }
+  },
 
 "
