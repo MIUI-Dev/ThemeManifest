@@ -1,6 +1,34 @@
 {"themes": [
 
   {
+    "theme_name": "Christmas Theme",
+    "theme_url": "http://magicmonkeystudios.com/android/n_i_x/themes/Christmas_v1.1.zip",
+    "theme_author": "Frankinstine",
+    "theme_preview_url": "http://themes.miui-themes.com/previews/Christmas_Theme/Christmas_Theme_thumbnail.jpg",
+    "theme_size": "4.0M",
+    "theme_version": "1.0",
+    "theme_screenshot_urls": [
+                              "http://themes.miui-themes.com/previews/Christmas_Theme/0.jpg",
+                              "http://themes.miui-themes.com/previews/Christmas_Theme/1.jpg",
+                              "http://themes.miui-themes.com/previews/Christmas_Theme/2.jpg",
+                              "http://themes.miui-themes.com/previews/Christmas_Theme/3.jpg",
+                              "http://themes.miui-themes.com/previews/Christmas_Theme/4.jpg",
+                             ]
+  },
+
+  {
+    "theme_name": "CRYSTA",
+    "theme_url": "http://magicmonkeystudios.com/android/n_i_x/themes/CRYSTA.zip",
+    "theme_author": "咩咩ynes",
+    "theme_preview_url": "http://themes.miui-themes.com/previews/CRYSTA/CRYSTA_thumbnail.jpg",
+    "theme_size": "3.7mb",
+    "theme_version": "1.0beta",
+    "theme_screenshot_urls": ["http://themes.miui-themes.com/previews/CRYSTA/0.jpg",
+                              "http://themes.miui-themes.com/previews/CRYSTA/1.jpg",
+                              "http://themes.miui-themes.com/previews/CRYSTA/2.jpg"]
+  },
+  
+  {
     "theme_name": "SWG",
     "theme_url": "http://www.miui-dev.com/themes/swg/swg-v1.2.zip",
     "theme_author": "themorra",
@@ -12,5 +40,6 @@
                               "http://www.miui-dev.com/themes/swg/2.jpg",
                               "http://www.miui-dev.com/themes/swg/3.jpg",
                               "http://www.miui-dev.com/themes/swg/4.jpg"]
-  }
+  },
+  
 ]}
