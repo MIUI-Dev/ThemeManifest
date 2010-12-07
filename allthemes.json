@@ -57,6 +57,20 @@
   },
 
   {
+
+    "theme_name": "Paper",
+    "theme_url": "http://downloads.miui-themes.com/caozhi/paper.zip",
+    "theme_author": "caozhi",
+    "theme_preview_url": "http://downloads.miui-themes.com/caozhi/caozhi_thumbnail.jpg",
+    "theme_size": "4.26 MB",
+    "theme_version": "1.0",
+    "theme_screenshot_urls": [
+                               "http://downloads.miui-themes.com/caozhi/caozhi/1.jpg",
+                             ]
+
+  },
+
+  {
     "theme_name": "SWG",
     "theme_url": "http://magicmonkeystudios.com/android/n_i_x/themes/swg-v1.2.zip",
     "theme_author": "Lucas Schvindt",
