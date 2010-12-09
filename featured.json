@@ -5,7 +5,7 @@
     "theme_url": "http://magicmonkeystudios.com/android/n_i_x/themes/CRYSTA.zip",
     "theme_author": "咩咩ynes",
     "theme_preview_url": "http://themes.miui-themes.com/previews/CRYSTA/CRYSTA_thumbnail.jpg",
-    "theme_size": "3.7M",
+    "theme_size": "3800000",
     "theme_version": "1.0beta",
     "theme_screenshot_urls": ["http://themes.miui-themes.com/previews/CRYSTA/0.jpg",
                               "http://themes.miui-themes.com/previews/CRYSTA/1.jpg",
@@ -13,46 +13,52 @@
   },
 
   {
+
     "theme_name": "MYTheme 2.0",
-    "theme_url": "http://magicmonkeystudios.com/android/n_i_x/themes/MYtheme2.0.zip",
+    "theme_url": "http://downloads.miui-themes.com/MYTheme_2.0/MYtheme2.0.zip",
     "theme_author": "YCman",
-    "theme_preview_url": "http://themes.miui-themes.com/previews/MYTheme_2.0/MYTheme_2.0_thumbnail.jpg",
-    "theme_size": "1.3M",
+    "theme_preview_url": "http://downloads.miui-themes.com/MYTheme_2.0/MYTheme_2.0_thumbnail.jpg",
+    "theme_size": "1360168",
     "theme_version": "1.0",
     "theme_screenshot_urls": [
-                              "http://themes.miui-themes.com/previews/MYTheme_2.0/0.jpg"
+                               "http://downloads.miui-themes.com/MYTheme_2.0/MYTheme_2.0/1.jpg"
                              ]
+
   },
   
   {
+
     "theme_name": "SWG",
-    "theme_url": "http://magicmonkeystudios.com/android/n_i_x/themes/swg-v1.2.zip",
+    "theme_url": "http://downloads.miui-themes.com/SWG/swg-v1.2.zip",
     "theme_author": "Lucas Schvindt",
-    "theme_preview_url": "http://themes.miui-themes.com/previews/SWG/SWG_thumbnail.jpg",
-    "theme_size": "4.0M",
+    "theme_preview_url": "http://downloads.miui-themes.com/SWG/SWG_thumbnail.jpg",
+    "theme_size": "4184654",
     "theme_version": "1.0",
     "theme_screenshot_urls": [
-                              "http://themes.miui-themes.com/previews/SWG/0.jpg",
-                              "http://themes.miui-themes.com/previews/SWG/1.jpg",
-                              "http://themes.miui-themes.com/previews/SWG/2.jpg",
-                              "http://themes.miui-themes.com/previews/SWG/3.jpg",
-                              "http://themes.miui-themes.com/previews/SWG/4.jpg",
-                              "http://themes.miui-themes.com/previews/SWG/5.jpg",
+                               "http://downloads.miui-themes.com/SWG/SWG/1.jpg",
+                               "http://downloads.miui-themes.com/SWG/SWG/2.jpg",
+                               "http://downloads.miui-themes.com/SWG/SWG/3.jpg",
+                               "http://downloads.miui-themes.com/SWG/SWG/4.jpg",
+                               "http://downloads.miui-themes.com/SWG/SWG/5.jpg",
+                               "http://downloads.miui-themes.com/SWG/SWG/6.jpg"
                              ]
+
   },
   
   {
+
     "theme_name": "Watermelon",
-    "theme_url": "http://magicmonkeystudios.com/android/n_i_x/themes/xigua_V1.1.zip",
+    "theme_url": "http://downloads.miui-themes.com/Watermelon/xigua_V1.1.zip",
     "theme_author": "oTUo",
-    "theme_preview_url": "http://themes.miui-themes.com/previews/Watermelon/Watermelon_thumbnail.jpg",
-    "theme_size": "2.1M",
+    "theme_preview_url": "http://downloads.miui-themes.com/Watermelon/Watermelon_thumbnail.jpg",
+    "theme_size": "2230541",
     "theme_version": "1.1",
     "theme_screenshot_urls": [
-                              "http://themes.miui-themes.com/previews/Watermelon/0.jpg",
-                              "http://themes.miui-themes.com/previews/Watermelon/1.jpg",
-                              "http://themes.miui-themes.com/previews/Watermelon/2.jpg",
+                               "http://downloads.miui-themes.com/Watermelon/Watermelon/1.jpg",
+                               "http://downloads.miui-themes.com/Watermelon/Watermelon/2.jpg",
+                               "http://downloads.miui-themes.com/Watermelon/Watermelon/3.jpg"
                              ]
+
   }
 
 ]}

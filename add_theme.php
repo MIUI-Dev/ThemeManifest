@@ -1,11 +1,5 @@
 <?php
 
-function formatBytes($size) {
-    $units = array(' B', ' KB', ' MB', ' GB', ' TB');
-    for ($i = 0; $size >= 1024 && $i < 4; $i++) $size /= 1024;
-    return round($size, 2).$units[$i];
-}
-
 function generatePreviews($theme_zip, $theme_path) {
     $files = array();
 
@@ -21,6 +15,8 @@ function generatePreviews($theme_zip, $theme_path) {
     $preview_images = array();
     
     for ($i = 1; $i < sizeof($files); ++$i) {
+        // Use regex to account for Windows Thumbs.db and other nonsense files
+        if (preg_match('/^.+\.((jpg)|(png))$/i', $files[$i])) {
             $image = $theme_zip->getFromName($files[$i]);
 
             $thumbnail = new Imagick();
@@ -40,6 +36,7 @@ function generatePreviews($theme_zip, $theme_path) {
 
             $thumbnail->clear();
             $thumbnail->destroy();
+        }
     }
     
     return $preview_images;
@@ -57,15 +54,17 @@ if ($theme_zip->open($uploaded_file) === TRUE) {
     $theme_version = $theme_info->version[0];
     $theme_size = filesize($uploaded_file);
 
+    // Replace spaces with "_" in theme name for theme path
     $theme_path = str_replace(" ", "_", $theme_name);
     if (!file_exists($theme_path)) {
         mkdir($theme_path);
     }
+    
     $preview_images = generatePreviews($theme_zip, $theme_path);
 
     $theme_zip->close();
     
-    move_uploaded_file($uploaded_file, "$theme_name/$uploaded_file_name");
+    move_uploaded_file($uploaded_file, "$theme_path/$uploaded_file_name");
 
     echo "<pre>";
     echo "Add the following code to the proper manifest file:\n\n";
@@ -74,7 +73,7 @@ if ($theme_zip->open($uploaded_file) === TRUE) {
     echo "    \"theme_url\": \"http://downloads.miui-themes.com/$theme_path/$uploaded_file_name\",\n";
     echo "    \"theme_author\": \"$theme_author\",\n";
     echo "    \"theme_preview_url\": \"http://downloads.miui-themes.com/$theme_path/$theme_path" . "_thumbnail.jpg\",\n";
-    echo "    \"theme_size\": \"" . formatBytes($theme_size) . "\",\n";
+    echo "    \"theme_size\": \"" . $theme_size . "\",\n";
     echo "    \"theme_version\": \"$theme_version\",\n";
     echo "    \"theme_screenshot_urls\": [\n";
 
