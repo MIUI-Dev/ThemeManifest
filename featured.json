@@ -18,6 +18,20 @@
 
   {
 
+    "theme_name": "FROIS-02",
+    "theme_url": "http://downloads.miui-themes.com/FROIS-02/FROIS-02.zip",
+    "theme_author": "Dexter.Ren",
+    "theme_preview_url": "http://downloads.miui-themes.com/FROIS-02/FROIS-02_thumbnail.jpg",
+    "theme_size": "3206892",
+    "theme_version": "1.0",
+    "theme_screenshot_urls": [
+                               "http://downloads.miui-themes.com/FROIS-02/2.jpg"
+                             ]
+
+  },
+
+  {
+
     "theme_name": "MYTheme 2.0",
     "theme_url": "http://downloads.miui-themes.com/MYTheme_2.0/MYtheme2.0.zip",
     "theme_author": "YCman",
