@@ -15,7 +15,6 @@ function generatePreviews($theme_zip, $theme_path) {
     $preview_images = array();
     
     for ($i = 1; $i < sizeof($files); ++$i) {
-        // Use regex to account for Windows Thumbs.db and other nonsense files
         if (preg_match('/^.+\.((jpg)|(png))$/i', $files[$i])) {
             $image = $theme_zip->getFromName($files[$i]);
 
@@ -54,12 +53,10 @@ if ($theme_zip->open($uploaded_file) === TRUE) {
     $theme_version = $theme_info->version[0];
     $theme_size = filesize($uploaded_file);
 
-    // Replace spaces with "_" in theme name for theme path
     $theme_path = str_replace(" ", "_", $theme_name);
     if (!file_exists($theme_path)) {
         mkdir($theme_path);
     }
-    
     $preview_images = generatePreviews($theme_zip, $theme_path);
 
     $theme_zip->close();
@@ -78,7 +75,7 @@ if ($theme_zip->open($uploaded_file) === TRUE) {
     echo "    \"theme_screenshot_urls\": [\n";
 
     for ($i = 0; $i < sizeof($preview_images); ++$i) {
-        echo "                               \"http://downloads.miui-themes.com/$theme_path/$preview_images[$i]\"";
+        echo "                               \"http://downloads.miui-themes.com/$preview_images[$i]\"";
         if (($i + 1) !== sizeof($preview_images)) {
             echo ",";
         }
