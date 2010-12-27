@@ -2,6 +2,25 @@
 
   {
 
+    "theme_name": "Bliss_SuaveHD",
+    "theme_url": "http://downloads.miui-themes.com/Bliss_SuaveHD/Bliss_SuaveHD.mtz",
+    "theme_author": "MrDSL",
+    "theme_preview_url": "http://downloads.miui-themes.com/Bliss_SuaveHD/Bliss_SuaveHD_thumbnail.jpg",
+    "theme_size": "16128113",
+    "theme_version": "1.0",
+    "theme_screenshot_urls": [
+                               "http://downloads.miui-themes.com/Bliss_SuaveHD/1.jpg",
+                               "http://downloads.miui-themes.com/Bliss_SuaveHD/2.jpg",
+                               "http://downloads.miui-themes.com/Bliss_SuaveHD/3.jpg",
+                               "http://downloads.miui-themes.com/Bliss_SuaveHD/4.jpg",
+                               "http://downloads.miui-themes.com/Bliss_SuaveHD/5.jpg",
+                               "http://downloads.miui-themes.com/Bliss_SuaveHD/6.jpg"
+                             ]
+
+  },
+
+  {
+
     "theme_name": "Christmas Theme",
     "theme_url": "http://downloads.miui-themes.com/Christmas_Theme/Christmas_v1.3.zip",
     "theme_author": "Frankinstine",
