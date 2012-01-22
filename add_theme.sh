@@ -17,9 +17,9 @@ chmod -R a+r $tmpDir
 #
 # This will create 3 variables from the Theme XML file:
 #
-# $title: Theme name
-# $author: Theme author
-# $version: Theme version
+# $title: Orange Fresh
+# $author: ZURD
+# $version: 1
 function parseXML() {
   elemList=( $(cat $xmlFile | tr '\n' ' ' | XMLLINT_INDENT="" xmllint --format - | grep -e "</.*>$" | while read line; do \
     echo $line | sed -e 's/^.*<\///' | cut -d '>' -f 1; \
